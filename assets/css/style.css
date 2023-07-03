@@ -6,13 +6,13 @@
 
 /* general utilities*/
 .container {
-   
-    width: 950px;
-    max-width: 1170px;
+
+    width: 65%;
     margin: auto;
     background-color: aqua;
     height: 300px;
     padding-top: 4rem;
+    border: 1px solid black;
 }
 
 .row {
@@ -21,6 +21,7 @@
     height: 70%;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
 
@@ -29,6 +30,7 @@
     width: 80%;
     height: 80%;
     margin: auto;
+    border: 1px solid black;
 }
 
 section {
@@ -42,41 +44,45 @@ section {
 
 
 /* first 3 col*/
-.col1, .col2{
+.col1,
+.col2 {
     border: 1px solid black;
 }
 
-.col1{
+.col1 {
     width: 70%;
     background-color: red;
     height: 80%;
+    border: 1px solid black;
 
 }
 
-.col2{
+.col2 {
     width: 30%;
     background-color: red;
     height: 80%;
+    border: 1px solid black;
 }
 
 /* end first 3 col*/
 
 /*big container*/
 .containerbig {
-    width: 950px;
-    max-width: 1170px;
+    width: 65%;
     margin: auto;
     background-color: aqua;
     height: 700px;
     padding-top: 4rem;
+    border: 1px solid black;
 }
 
-.big{
+.big {
     background-color: white;
     height: 850px;
     border: 1px solid black;
     padding-top: 1rem;
 }
+
 /* end big container*/
 
 /*header utilities*/
@@ -85,6 +91,7 @@ section {
     background-color: red;
     height: 25px;
     width: 15%;
+    border: 1px solid black;
 }
 
 .menu {
@@ -92,12 +99,15 @@ section {
     width: 80%;
     height: 25px;
     width: 70%;
+    border: 1px solid black;
 }
 
 .endm {
     background-color: red;
     height: 25px;
     width: 15%;
+    border: 1px solid black;
+
 }
 
 .rowh {
@@ -110,19 +120,19 @@ section {
     padding-right: 110px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: 1px solid black;
 }
 
 .containerh {
     width: 75%;
-    max-width: 1170px;
     margin: auto;
     background-color: aqua;
-    height: 350px;
+    border: 1px solid black;
 }
 
 header {
     background-color: bisque;
-    height: 350px
+    height: 350px border 1px solid black;
 }
 
 .rowhb {
@@ -134,15 +144,70 @@ header {
     padding-left: 180px;
     padding-right: 180px;
     padding-bottom: 70px;
+    border: 1px solid black;
 
 }
+
 /* end header utilities*/
 
 /*center section*/
-.centeredsec{
+.centeredsec {
     background-color: white;
     height: 550px;
     border: 1px solid black;
-    padding: 7.5em;;
+    padding-top: 7rem;
+    ;
 }
+
 /* end center section*/
+
+footer {
+    display: flex;
+    height: 500px;
+    background-color: darkblue;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.frow {
+    display: flex;
+    height: 75%;
+    background-color: rgb(13, 183, 86);
+    width: 65%;
+    border: 1px solid black;
+}
+
+.fcol1 {
+    width: 33.3%;
+    background-color: red;
+    height: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.fcol {
+    width: calc(66.7%/4);
+    background-color: red;
+    height: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.frow2 {
+    display: flex;
+    background-color: rgb(13, 183, 86);
+    height: 10%;
+    justify-content: space-between;
+    width: 65%;
+    margin-bottom: 6rem;
+    border: 1px solid black;
+    padding: 0.3rem;
+}
+
+.fcol2 {
+    background-color: red;
+    width: 10%;
+    height: 60%;
+    border: 1px solid black;
+
+}
