@@ -6,17 +6,19 @@
 
 /* general utilities*/
 .container {
-    width: 75%;
+   
+    width: 950px;
     max-width: 1170px;
     margin: auto;
     background-color: aqua;
-    height: 250px;
+    height: 300px;
+    padding-top: 4rem;
 }
 
 .row {
     display: flex;
     background-color: rgb(13, 183, 86);
-    height: 300px;
+    height: 70%;
     justify-content: center;
     align-items: center;
 }
@@ -26,17 +28,56 @@
     background-color: red;
     width: 80%;
     height: 80%;
-    margin: 1rem;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    height: 550px;
+    border: 1px solid black;
+    padding-top: 1rem;
 }
 
 /* end general utilities*/
 
 
+/* first 3 col*/
+.col1, .col2{
+    border: 1px solid black;
+}
 
+.col1{
+    width: 70%;
+    background-color: red;
+    height: 80%;
 
+}
 
+.col2{
+    width: 30%;
+    background-color: red;
+    height: 80%;
+}
 
+/* end first 3 col*/
 
+/*big container*/
+.containerbig {
+    width: 950px;
+    max-width: 1170px;
+    margin: auto;
+    background-color: aqua;
+    height: 700px;
+    padding-top: 4rem;
+}
+
+.big{
+    background-color: white;
+    height: 850px;
+    border: 1px solid black;
+    padding-top: 1rem;
+}
+/* end big container*/
 
 /*header utilities*/
 
@@ -84,9 +125,9 @@ header {
     height: 350px
 }
 
-.rowhb{
+.rowhb {
     display: flex;
-    background-color: rgb(13, 183, 86);
+    background-color: ;
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -95,6 +136,13 @@ header {
     padding-bottom: 70px;
 
 }
-
-
 /* end header utilities*/
+
+/*center section*/
+.centeredsec{
+    background-color: white;
+    height: 550px;
+    border: 1px solid black;
+    padding: 7.5em;;
+}
+/* end center section*/
