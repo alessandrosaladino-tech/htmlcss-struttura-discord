@@ -161,6 +161,7 @@ header {
 
 /* end center section*/
 
+/*footer section*/
 footer {
     display: flex;
     height: 500px;
@@ -211,3 +212,5 @@ footer {
     border: 1px solid black;
 
 }
+
+/*end footer section*/
