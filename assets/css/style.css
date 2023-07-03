@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+/* general utilities*/
+.container {
     width: 75%;
     max-width: 1170px;
     margin: auto;
@@ -12,12 +13,50 @@
     height: 250px;
 }
 
-.row{
+.row {
     display: flex;
     background-color: rgb(13, 183, 86);
-    height: 80%;
+    height: 300px;
     justify-content: center;
     align-items: center;
+}
+
+
+.col {
+    background-color: red;
+    width: 80%;
+    height: 80%;
+    margin: 1rem;
+}
+
+/* end general utilities*/
+
+
+
+
+
+
+
+
+/*header utilities*/
+
+.image {
+    background-color: red;
+    height: 25px;
+    width: 15%;
+}
+
+.menu {
+    background-color: red;
+    width: 80%;
+    height: 25px;
+    width: 70%;
+}
+
+.endm {
+    background-color: red;
+    height: 25px;
+    width: 15%;
 }
 
 .rowh {
@@ -32,21 +71,30 @@
     padding-bottom: 5px;
 }
 
-header{
+.containerh {
+    width: 75%;
+    max-width: 1170px;
+    margin: auto;
+    background-color: aqua;
+    height: 350px;
+}
+
+header {
     background-color: bisque;
+    height: 350px
 }
 
-.col{
-    width:  ;
-    background-color: red;
-    width: 80%;
-    height: 80%;
-    margin: 1rem;
+.rowhb{
+    display: flex;
+    background-color: rgb(13, 183, 86);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 70px;
+
 }
 
-.colh{
-    width: calc(20% 60% 20%);
-    background-color: red;
-    width:80%;
-    height: 25px;
-}
+
+/* end header utilities*/
